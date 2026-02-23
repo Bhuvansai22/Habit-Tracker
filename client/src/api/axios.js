@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://habit-tracker-7rw1.onrender.com',
 });
 
 // Attach JWT to every request if present
